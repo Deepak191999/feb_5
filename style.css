@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100vh;
+}
+
+.header
+{  
+    background-color: black;
+    height: 15vh;
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 83px;
+    
+    align-items: center;
+   
+}
+.img img
+{
+    height:50px ;
+    width: 150px;
+}
+.ul
+{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    
+   /* padding: 20px; */
+    /* margin-left: 64px; */
+}
+.items
+{
+   flex-grow: 1;
+   padding-left: 100px;
+}
+.buy-button button
+{
+    background:  #ba0cc5;
+    color:white;
+    padding: 10px 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.img,.items
+{
+    cursor: pointer;
+}
+
+/* Hero section */
+
+.hero
+{
+    background-image: url("bg_image.png");
+    height: 89vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+
+.text
+{
+    color: white;
+}
+.text h1
+{
+    max-width: 800px;
+    font-size: 70px;
+    margin: 0 auto;
+    
+    line-height: 94px;
+    padding-top: 150px;
+ 
+}
+.text h3{
+    font-size: 25px;
+}
+.access-button button
+{
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: #ba0cc5;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    padding: 10px 35px;
+}
